@@ -15,7 +15,7 @@
     },
     "AUTO_READ_MESSAGES": {
       "description": "Turn this 'on' if you want the bot to automatically read incoming messages. Use 'off' to disable it.",
-      "value": "off",
+      "value": "on",
       "required": false
     },
     "BLOCK_ALL": {
@@ -30,7 +30,7 @@
     },
     "AUTO_SAVE_STATUS": {
       "description": "Automatically download and send status updates from your contacts. Type 'yes' to enable or 'no' to disable.",
-      "value": "off",
+      "value": "on",
       "required": false
     },
     "PM_PERMIT": {
@@ -50,7 +50,7 @@
     },
     "TIME_ZONE": {
       "description": "Specify your country's time zone (e.g., 'Africa/Nairobi'). This ensures that bot activities follow your local time.",
-      "value": "Africa/Nairobi",
+      "value": "Karachi/punjab",
       "required": false
     },
     "ANTICALL": {
@@ -73,17 +73,17 @@
     },
     "SESSION_ID": {
       "description": "Place your unique FLASH MD session ID here. This is required for the bot to function.",
-      "value": "",
+      "value": "FLASH-MD-WA-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiK1A5K3diM1BKVzN4SVQ3aS83M1c1RnA2T0NFbjVQNlRRUlZObnZiZW5XTT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiejNnTENWWi9uT21KMysyeXZSWENZem5yVC9kcjFtazkvVytxaEtZTnJ3WT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI0QnNQTzYyR1NCbXRWRXM4TDREU3Zqb0pvOHJDOExYQkMxTDkya1FUbzJVPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJUVERacjZZMHNPRUJLOXpSYlJ5NktqWFhWU2lBYXBpeXRBZjl0S3NrekRvPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImVKcWJTaGRsSDFYRFprSnZmU0VQanRJMi9seXFvUklZT2lCTzFSMEkrblU9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik9mWExZSHpNMXB5Uk0vWmdDNEhtUGIvZ3pDOXBwS3N2YkpXMmNrOWFxam89In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiT05IYTcwLzNYZklVSmI0RnhLWFlrWGJ6Y3A0Q1FBdWNMSGdhRWNZTTRHZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoic0VvKysraVB0c0JrOE0wNDRGSThyTlh1WEVFWElXMGlwcllEbWx3TnNpZz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im4vVC9KNW1wU00vV1k4cjFTMnEvZmZ4dE03THg1N2VrbFFNbkxScGRwS2lkZFNjY01CRTFnQ1lzWWRQYVhhcWtKcGhPZUpPbFY3elJCMUxwaGFoeEJ3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6OTgsImFkdlNlY3JldEtleSI6IkNVbDJzVWVjRDJBZXZULzloNndLczFyMldlcDVZWU4wdkRaTnJkM1dSd2c9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbeyJrZXkiOnsicmVtb3RlSmlkIjoiOTIzNzA0NDA0ODkzQHMud2hhdHNhcHAubmV0IiwiZnJvbU1lIjp0cnVlLCJpZCI6IkM0Mjg2N0I3MkYxQUE3NUQ2MjA3QzVGMDMwRjI2MkY5In0sIm1lc3NhZ2VUaW1lc3RhbXAiOjE3MjkwODcxODB9LHsia2V5Ijp7InJlbW90ZUppZCI6IjkyMzcwNDQwNDg5M0BzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiIyOUIwQzlEN0Y5MUJGQUFFMUFDQjA1MUM2NjY5MzJEMiJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzI5MDg3MTgzfV0sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjoxLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJlWl9FOEZVc1JMQ1Jtay1BYTQtTFpBIiwicGhvbmVJZCI6ImU5MTgyODU3LTBlZmUtNDFiYS1hOGZkLTYwNzBjY2FjYzIyZSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJTdFZuaitxemp0eGRIdWt5NFRBaXdyamN3Ykk9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibGF0eSsyVHQra1RvMWZVSXdzekRFTnM2QnlrPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6Ik05UEJQNTNUIiwibWUiOnsiaWQiOiI5MjM3MDQ0MDQ4OTM6MTdAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ00vejBNNENFTGFOdjdnR0dBZ2dBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IjV2RlRLZGJzTEgwa3pGeHF2c012Wnc1a3JTdkYzUWpkM3FqdS8rYzFid1E9IiwiYWNjb3VudFNpZ25hdHVyZSI6IldvM0hkQzBFby9nT0xmL2lpQ1piSDRaSUplK0FXbUsvNU9hWksycGlBYzVEMUM3Y2IvcXhzUHNxalFGbXNYSld5cE5NcVZrcnViR1pDb3o0cmZJb0R3PT0iLCJkZXZpY2VTaWduYXR1cmUiOiI3czhxLzB5OFFFcWlrNUdWODMrUUNVT2Z5QTlGU0lQSEhSWWllY0JGYk1FZkYvMDZTMGVyOWhyVGJTWUdacjRjL3lReldsZHlSeFVEM3dKWUpQeFlDdz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjkyMzcwNDQwNDg5MzoxN0BzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJlYnhVeW5XN0N4OUpNeGNhcjdETDJjT1pLMHJ4ZDBJM2Q2bzd2L25OVzhFIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzI5MDg3MTcyLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUY5UCJ9",
       "required": true
     },
     "OWNER_NAME": {
       "description": "Enter the name of the bot owner. This name will be displayed when required.",
-      "value": "France King",
+      "value": "Usman King",
       "required": false
     },
     "OWNER_NUMBER": {
       "description": "Enter your phone number without the '+' sign. Use your country code (e.g., '254' for Kenya).",
-      "value": "254751284190",
+      "value": "923704404893",
       "required": false
     },
     "WARN_COUNT": {
@@ -103,7 +103,7 @@
     },
     "PRESENCE": {
       "description": "Choose how you want to appear to others: 'online' (always online), 'typing' (currently typing), 'recording' (currently recording audio), or leave blank for real-time presence.",
-      "value": "",
+      "value": "typing",
       "required": false
     }
   },
